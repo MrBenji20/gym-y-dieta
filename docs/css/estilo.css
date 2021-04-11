@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    border: white solid 5px;
+    padding: 0%;
+    margin: 0px;
+    background-color: black
+    
+}
+
+nav ul li{
+    display: inline;
+    padding-right: 0.5em;
+    position:static;
+    margin: 10px;
+    line-height: 50px;
+    font-size: 25px;
+    height: 60px;
+    color: white solid;
+    
+    
+    
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+
+.pricipal{
+    color: black;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
