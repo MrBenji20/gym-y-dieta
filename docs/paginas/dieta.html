@@ -8,64 +8,52 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilodieta.css">
-    <title>Dieta</title>
+    <title>Nutrición y dieta</title>
 </head>
 
 <body>
     <header>
-        <div class="principal">
-            <h1>
-                <p>TIITULO DE LA PAGINA</p>
-            </h1>
-        </div>
         <div class="contenido">
-            <div class="clearfix">
-                <div class="titulo">
-                    <h3>
-                        <p>Desayuno</p>
-                    </h3>
-                </div>
-                <div class="texto">
-                    <h5>
-                        <p>
-                            <img src="../imagenes/GettyImages-862409366-720x355.jpg" align="right" alt="Comida">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit quam id, quibusdam dolores, eius inventore, reiciendis hic nisi delectus nobis magni ipsa numquam culpa repellat accusamus assumenda ad qui magnam?
-                        </p>
-                    </h5>
-                </div>
+            <div class="titulo">
+                <h1>
+                    <p>Dieta</p>
+                </h1>
             </div>
-            <div class="clearfix">
-                <div class="titulo">
-                    <h3>
-                        <p>Almuerzo</p>
-                    </h3>
-                </div>
-                <div class="texto">
-                    <h5>
-                        <p>
-                            <img src="../imagenes/GettyImages-862409366-720x355.jpg" align="left" alt="Comida">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit quam id, quibusdam dolores, eius inventore, reiciendis hic nisi delectus nobis magni ipsa numquam culpa repellat accusamus assumenda ad qui magnam?
-                        </p>
-                    </h5>
-                </div>
-            </div>
-            <div class="clearfix">
-                <div class="titulo">
-                    <h3>
-                        <p>Once</p>
-                    </h3>
-                </div>
-                <div class="texto">
-                    <h5>
-                        <p>
-                            <img src="../imagenes/GettyImages-862409366-720x355.jpg" align="right" alt="Comida">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit quam id, quibusdam dolores, eius inventore, reiciendis hic nisi delectus nobis magni ipsa numquam culpa repellat accusamus assumenda ad qui magnam?
-                        </p>
-                    </h5>
-                </div>
-            </div>
+            <ul class="slider">
+                <li id="slide1">
+                    <div class="card">
+                        <img class="card-img" src="../imagenes/GettyImages-862409366-720x355.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <p class="card-text">El desayuno es la parte más importante del día y que mejor que partir el día con un desayuno nutritivo y activar bién tu día</p>
+                        </div>
+                      </div>
+                </li>
+                <li id="slide2">
+                    <div class="card">
+                        <img class="card-img" src="../imagenes/Almuerzo.jpeg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <p class="card-text">I'm text that has a background image!</p>
+                        </div>
+                      </div>
+                </li>
+                <li id="slide3">
+                    <div class="card">
+                        <img class="card-img" src="../imagenes/once.jpg" alt="Card image">
+                        <div class="card-img-overlay">
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio harum corporis officia unde nesciunt eligendi atque ipsum quis? Facilis, laboriosam inventore laborum dolorem possimus beatae autem debitis earum consequatur nobis!</p>
+                        </div>
+                      </div>
+                </li>
+             </ul>
         </div>
     </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="#slide1">Desayuno</a></li>
+            <li><a href="#slide2">Almuerzo</a></li>
+            <li><a href="#slide3">Once</a></li>
+    </ul>
+    </nav>
 </body>
 
 </html>
